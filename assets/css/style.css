@@ -1,0 +1,87 @@
+/* ----------------------------------------- */
+/* Big, parents, classes */
+/* ----------------------------------------- */
+
+div {
+	display: block;
+	/* position: absolute; */
+}
+
+.daddy {
+	position: relative;
+	display: inline-block;
+
+	/* width: 100vh; <--- apparently only works fully on id's*/
+}
+
+#daddy1 {
+	background-color: blue;
+	border: 3px solid black;
+	border-width: 5px;
+	position: relative;
+	/* display: inline-block; */
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	vertical-align: center;
+	align-content: center;
+	padding: 20%;
+}
+
+#daddy2 {
+	background-color: GREEN;
+	border: 3px solid black;
+	border-width: 5px;
+	position: relative;
+	display: inline-block;
+	width: 100vw;
+	height: 100vh;
+}
+
+#daddy3 {
+	background-color: yellow;
+	border: 3px solid black;
+	border-width: 5px;
+	width: 100vw;
+}
+
+#daddy4 {
+	background-color: red;
+	border: 3px solid black;
+	border-width: 5px;
+	width: 100vw;
+}
+#daddy5 {
+	background-color: red;
+	border: 3px solid black;
+	border-width: 5px;
+	width: 100vw;
+}
+#daddy6 {
+	background-color: red;
+	border: 3px solid black;
+	border-width: 5px;
+	width: 100vw;
+}
+#daddy7 {
+	background-color: red;
+	border: 3px solid black;
+	border-width: 5px;
+	width: 100vw;
+}
+#daddy8 {
+	background-color: red;
+	border: 3px solid black;
+	border-width: 5px;
+	width: 100vw;
+}
+
+#hero {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.bighead {
+	height: 50%;
+	display: block;
+}
